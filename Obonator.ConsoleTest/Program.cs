@@ -1,6 +1,7 @@
 ﻿using System;
+using Obonator.Library;
 
-namespace Obonator.ConsoleTest
+namespace Ozonator.ConsoleTest
 {
     class Program
     {
