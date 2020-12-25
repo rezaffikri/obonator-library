@@ -12,7 +12,7 @@ using System.Xml;
 namespace Obonator.Library
 {
     class ObonWebservices
-    {
+    { 
         public static void SerializeJsonIntoStream(object value, Stream stream)
         {
             using (var jtw = new Utf8JsonWriter(stream, new JsonWriterOptions { Indented = true }))
